@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tableau de bord</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="header-profile">
+                <img src="./assets/images/manager-avatar.png" alt="Michel Dupont" width="60" height="60">
+                <div>
+                    <p>Michel Dupont</p>
+                    <p class="profile-post">Manager</p>
+                </div>
+            </div>
+            <div class="navbar-list">
+                <ul class="navbar-items">
+                    <li class="active">
+                        <a href="#">Accueil</a>
+                    </li>
+                    <li>
+                        <a href="#">Livraisons</a>
+                    </li>
+                    <li>
+                        <a href="#">Véhicules</a>
+                    </li>
+                    <li>
+                        <a href="#">Planning</a>
+                    </li>
+                    <li>
+                        <button class="create-btn">Nouvelle livraison</button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div>
+            <img src="./assets/images/menu.png" alt="menu" class="menu">
+        </div>
+    </header>
+
+
+    <main class="home-container">
+        <section class="home">
+            <div class="card">
+                <p class="card-title">Récapitulatif de la semaine</p>
+                <div class="bike-week">
+                    <div class="bike-img">
+                        <img src="./assets/images/bike.png" alt="Bike" width="112" height="71">
+                    </div>
+
+                    <div class="date">
+                        <span class="date-title">Semaine du 3 octobre</span>
+                        <span class="date-subtitle">2022</span>
+
+                    </div>
+                </div>
+
+                <ul class="numbers">
+                    <li class="number-case">
+                        <span class="number">145</span>
+                        <p class="text">km/semaine</p>
+                    </li>
+                    <li class="number-case">
+                        <span class="number">32</span>
+                        <p class="text">livraisons</p>
+                    </li>
+                    <li class="number-case">
+                        <span class="number">4</span>
+                        <p class="text">retards</p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <p class="card-title">Livraisons en attente</p>
+                <div>
+                    <ul class="waiting-delivery">
+                        <li><a href="#" class="delivery-reference">KA543M</a></li>
+                        <li class="waiting-text">En attente</li>
+                        <li>
+                            <button class="assign">Attribuer</button>
+                        </li>
+                    </ul>
+                    <ul class="waiting-delivery">
+                        <li><a href="#" class="delivery-reference">KA543M</a></li>
+                        <li class="waiting-text">En attente</li>
+                        <li>
+                            <button class="assign">Attribuer</button>
+                        </li>
+                    </ul>
+                    <ul class="waiting-delivery">
+                        <li><a href="#" class="delivery-reference">KA543M</a></li>
+                        <li class="waiting-text">En attente</li>
+                        <li>
+                            <button class="assign">Attribuer</button>
+                        </li>
+                    </ul>
+                    <ul class="waiting-delivery">
+                        <li><a href="#" class="delivery-reference">KA543M</a></li>
+                        <li class="waiting-text">En attente</li>
+                        <li>
+                            <button class="assign">Attribuer</button>
+                        </li>
+                    </ul>
+                </div>
+                <a href="#" class="more">Voir tout</a>
+            </div>
+
+            <div class="card">
+                <p class="card-title">Livreurs disponibles</p>
+                <div class="available-drivers">
+                    <div>
+                        <div class="available">
+                            <img class="avatar" src="./assets/images/avatar-driver.png" alt="Louise Rossignol"
+                                width="40" height="40">
+                            <div>
+                                <p>Louise Rossignol</p>
+                                <p class="profile-post">Lyon</p>
+                            </div>
+                        </div>
+                        <div class="available">
+                            <img class="avatar" src="./assets/images/avatar-driver-2.png" alt="Alain Carpentier"
+                                width="40" height="40">
+                            <div>
+                                <p>Alain Carpentier</p>
+                                <p class="profile-post">Paris</p>
+                            </div>
+                        </div>
+
+                        <div class="available">
+                            <img class="avatar" src="./assets/images/avatar-driver-3.png" alt="Rayan Alves" width="40"
+                                height="40">
+                            <div>
+                                <p>Rayan Alves</p>
+                                <p class="profile-post">Toulouse</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="available">
+                            <img class="avatar" src="./assets/images/avatar-driver-4.png" alt="Sam Lesage" width="40"
+                                height="40">
+                            <div>
+                                <p>Sam Lesage</p>
+                                <p class="profile-post">Marseille</p>
+                            </div>
+                        </div>
+
+
+                        <div class="available">
+                            <img class="avatar" src="./assets/images/avatar-driver-5.png" alt="Allan Lopes" width="40"
+                                height="40">
+                            <div>
+                                <p>Allan Lopes</p>
+                                <p class="profile-post">Paris</p>
+                            </div>
+                        </div>
+
+                        <div class="available">
+                            <img class="avatar" src="./assets/images/avatar-driver-6.png" alt="Arthur Martin" width="40"
+                                height="40">
+                            <div>
+                                <p>Arthur Martin</p>
+                                <p class="profile-post">Lyon</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="more">Voir tout</a>
+            </div>
+        </section>
+
+        <section class="table">
+            <div class="table-title">
+                <p>Planning des livraisons</p>
+            </div>
+            <div class="time">
+                <div class="past">
+                    <a href="#">
+                        <img class="arrow-left" src="./assets/images/arrow-left.png" width="7" height="10">
+                    </a>
+
+                    <a href="#"><span class="time-text">Précédent</span></a>
+                </div>
+                <div class="today"><a href="#"><span class="time-text-today">4 octobre 2022</span></a>
+                </div>
+                <div class="future">
+                    <a href="#"><span class="time-text">Suivant</span></a>
+                    <a href="#">
+                        <img class="arrow-right" src="./assets/images/arrow-right.png" width="7" height="10">
+                    </a>
+                </div>
+            </div>
+
+            <div class="delivery-header">
+                <ul class="delivery">
+                    <li class="delivery-infos">
+                        <div class="col col-1">Livraison</div>
+                        <div class="col col-2">Nom</div>
+                        <div class="col col-3">Adresse</div>
+                        <div class="col col-4">Véhicule</div>
+                        <div class="col col-5">Statut</div>
+                        <div class="col col-6">Heure</div>
+                        <div class="col col-7">Retard</div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="delivery-inside">
+                <ul class="delivery">
+                    <li class="delivery-complete">
+                        <div class="col-complete col-1"><a href="#" class="delivery-reference">ZT643F</a></div>
+                        <div class="col-complete col-2">Osumi</div>
+                        <div class="col-complete col-3">9 bis rue du Rhin, 75019 Paris</div>
+                        <div class="col-complete col-4">C - 123</div>
+                        <div class="col-state-orange col-5">En cours</div>
+                        <div class="col-complete col-6"></div>
+                        <div class="col-complete col-7"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="delivery-inside">
+                <ul class="delivery">
+                    <li class="delivery-complete">
+                        <div class="col-complete col-1"><a href="#" class="delivery-reference">ZT643F</a></div>
+                        <div class="col-complete col-2">Osumi</div>
+                        <div class="col-complete col-3">9 bis rue du Rhin, 75019 Paris</div>
+                        <div class="col-complete col-4">C - 123</div>
+                        <div class="col-state-red col-5">Retardée</div>
+                        <div class="col-complete col-6">19h08</div>
+                        <div class="col-complete col-7">1h16</div>
+                    </li>
+                </ul>
+            </div>
+            <div class="delivery-inside">
+                <ul class="delivery">
+                    <li class="delivery-complete">
+                        <div class="col-complete col-1"><a href="#" class="delivery-reference">ZT643F</a></div>
+                        <div class="col-complete col-2">Osumi</div>
+                        <div class="col-complete col-3">9 bis rue du Rhin, 75019 Paris</div>
+                        <div class="col-complete col-4">C - 123</div>
+                        <div class="col-state-green col-5">Réceptionnée</div>
+                        <div class="col-complete col-6">11h23</div>
+                        <div class="col-complete col-7"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="delivery-inside">
+                <ul class="delivery">
+                    <li class="delivery-complete">
+                        <div class="col-complete col-1"><a href="#" class="delivery-reference">ZT643F</a></div>
+                        <div class="col-complete col-2">Osumi</div>
+                        <div class="col-complete col-3">9 bis rue du Rhin, 75019 Paris</div>
+                        <div class="col-complete col-4">C - 123</div>
+                        <div class="col-state-green col-5">Réceptionnée</div>
+                        <div class="col-complete col-6">11h23</div>
+                        <div class="col-complete col-7"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="delivery-inside">
+                <ul class="delivery">
+                    <li class="delivery-complete">
+                        <div class="col-complete col-1"><a href="#" class="delivery-reference">ZT643F</a></div>
+                        <div class="col-complete col-2">Osumi</div>
+                        <div class="col-complete col-3">9 bis rue du Rhin, 75019 Paris</div>
+                        <div class="col-complete col-4">C - 123</div>
+                        <div class="col-state-green col-5">Réceptionnée</div>
+                        <div class="col-complete col-6">11h23</div>
+                        <div class="col-complete col-7"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="delivery-inside">
+                <ul class="delivery">
+                    <li class="delivery-complete">
+                        <div class="col-complete col-1"><a href="#" class="delivery-reference">ZT643F</a></div>
+                        <div class="col-complete col-2">Osumi</div>
+                        <div class="col-complete col-3">9 bis rue du Rhin, 75019 Paris</div>
+                        <div class="col-complete col-4">C - 123</div>
+                        <div class="col-state-green col-5">Réceptionnée</div>
+                        <div class="col-complete col-6">11h23</div>
+                        <div class="col-complete col-7"></div>
+                    </li>
+                </ul>
+            </div>
+            </div>
+            <a href="#" class="more delivery">Voir tout</a>
+            </div>
+        </section>
+    </main>
+</body>
+
+<script>
+        const menu = document.querySelector(".menu")
+        const navList = document.querySelector(".navbar-list")
+
+        menu.addEventListener('click',()=>{
+        navList.classList.toggle('mobile-menu')
+        })
+</script>
+
+</html>
